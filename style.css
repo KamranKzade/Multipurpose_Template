@@ -1,0 +1,141 @@
+:root {
+  --app-gray: #1a1a1a;
+  --app-yellow: #ffe500;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+}
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+/* Header Start */
+header {
+  background-color: var(--app-gray);
+  padding: 20px 0;
+}
+.icons {
+  width: 60%;
+  margin: auto;
+  display: flex;
+}
+.icon {
+  width: 50%;
+}
+.i-1 {
+  text-align: left;
+}
+.i-2 {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+  margin-top: 280px;
+}
+.center h1 {
+  font-size: 1.25em;
+  letter-spacing: 15px;
+  color: white;
+  font-weight: 200;
+}
+.center p {
+  font-size: 0.8em;
+  font-weight: 200;
+  color: white;
+  letter-spacing: 5px;
+  margin-top: 35px;
+}
+.center a {
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 16px 35px;
+  text-decoration: none;
+  letter-spacing: 4px;
+  color: var(--app-gray);
+  margin-top: 50px;
+  background-color: var(--app-yellow);
+}
+.center img {
+  display: block;
+  margin: auto;
+  margin-top: 250px;
+}
+/* Header End */
+
+/* Main Start */
+main {
+  padding-top: 170px;
+  padding-bottom: 220px;
+  background-color: white;
+  text-align: center;
+}
+main p {
+  font-size: 0.9em;
+  color: #939393;
+  width: 30%;
+  margin: auto;
+  line-height: 30px;
+  margin-top: 95px;
+}
+/* Main End */
+
+/* Services Start */
+#services {
+  padding-bottom: 35px;
+  padding-top: 80px;
+  background-color: #f4f4f4;
+}
+#sub-services {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+#sub-services h1 {
+  font-size: 1.25em;
+  letter-spacing: 15px;
+  text-transform: uppercase;
+  font-weight: 200;
+  margin-top: 35px;
+  color: var(--app-gray);
+}
+#sub-services p {
+  margin-top: 45px;
+  font-size: 0.9em;
+  color: #939393;
+  line-height: 30px;
+}
+
+#items{
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 85px;
+}
+.item{
+  width: 23.5%;
+  text-align: center;
+  box-shadow: 0 0 5px lightgray;
+  box-sizing: border-box;
+  padding: 25px;
+  border: 0;
+  background-color: white;
+}
+.item h1{
+  margin-top:35px;
+  line-height: 20px;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-size: 0.8em;
+  color:var(--app-gray)
+}
+.item p{
+  color:var(--app-gray);
+  font-size: 0.8em;
+  margin-top:45px;
+  color: gray;
+}
+/* Services End */
