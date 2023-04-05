@@ -168,8 +168,7 @@ main p {
   padding-left: 12px;
 }
 
-#Skills .item
-{
+#Skills .item {
   width: 23.5%;
   text-align: center;
   box-shadow: 0 0 5px lightgray;
@@ -189,65 +188,65 @@ main p {
   margin-bottom: 15px;
 }
 
-.outSection{
+.outSection {
   background-color: var(--app-lightGray);
   width: 100%;
   height: 0.5vh;
   margin-bottom: 20px;
 }
 
-.inSectionk{
+.inSectionk {
   background-color: var(--app-yellow);
   height: 0.5vh;
   text-align: left;
 }
 
-.i-1 .outSection .i-1{
+.i-1 .outSection .i-1 {
   width: 85%;
 }
 
 
-.i-1 .outSection .i-2{
+.i-1 .outSection .i-2 {
   width: 98%;
 }
 
-.i-1 .outSection .i-3{
+.i-1 .outSection .i-3 {
   width: 72%;
 }
 
-.i-2 .outSection .i-1{
+.i-2 .outSection .i-1 {
   width: 97%;
 }
 
-.i-2 .outSection .i-2{
+.i-2 .outSection .i-2 {
   width: 78%;
 }
 
-.i-2 .outSection .i-3{
+.i-2 .outSection .i-3 {
   width: 89%;
 }
 
-.i-3 .outSection .i-1{
+.i-3 .outSection .i-1 {
   width: 98%;
 }
 
-.i-3 .outSection .i-2{
+.i-3 .outSection .i-2 {
   width: 98%;
 }
 
-.i-3 .outSection .i-3{
+.i-3 .outSection .i-3 {
   width: 76%;
 }
 
-.i-4 .outSection .i-1{
+.i-4 .outSection .i-1 {
   width: 79%;
 }
 
-.i-4 .outSection .i-2{
+.i-4 .outSection .i-2 {
   width: 82%;
 }
 
-.i-4 .outSection .i-3{
+.i-4 .outSection .i-3 {
   width: 77%;
 }
 
@@ -256,7 +255,7 @@ main p {
   line-height: 20px;
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
-  letter-spacing: 10px;
+  letter-spacing: 7px;
   font-size: 0.8em;
   color: var(--app-gray)
 }
@@ -318,8 +317,153 @@ main p {
 /* Portfolio Start */
 
 #Portfolio {
+  padding-bottom: 35px;
+  padding-top: 80px;
+  background-color: #ffffff;
+}
+
+#sub-Portfolio {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+
+#sub-Portfolio h1 {
+  font-size: 1.25em;
+  letter-spacing: 15px;
+  text-transform: uppercase;
+  font-weight: 200;
+  margin-top: 35px;
+  color: var(--app-gray);
+}
+
+#sub-Portfolio p {
+  margin-top: 45px;
+  font-size: 0.9em;
+  color: #939393;
+  line-height: 30px;
+}
+
+#Portfolio .box {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  margin-top: 90px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#Portfolio .Boxitem {
+  width: 40%;
+}
+
+#Portfolio .i-1m.i-3 {
+  justify-content: center;
+  text-align: center;
+}
+
+#Portfolio .border {
+  display: flex;
+}
+
+#Portfolio .border p {
+  width: 45%;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.8em;
+  margin-left: 20px;
+  color: var(--app-gray);
+}
+
+#Portfolio .i-1 .liner {
+  background-color: black;
+  height: 0.05vh;
+}
+
+#Portfolio .i-3 .liner {
+  background-color: black;
+  height: 0.05vh;
+}
+
+#Portfolio .i-1 .border {
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+#Portfolio .i-3 .border {
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+
+.Colors {
+  width: 100%;
+  margin-top: 90px;
+  height: 31vh;
+  display: flex;
+}
+
+.color {
+  width: 17%;
+}
+
+.color .i-1 {
+  position: relative;
+}
+
+.inColor {
+  height: 24%;
   background-color: var(--app-yellow);
-  height: 20vh;
+  width: 12%;
+  z-index: 2;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 35px;
+}
+
+.words {
+  margin-top: 45px;
+  margin-left: 11px;
+  width: 90%;
+  height: 51%;
+  background-color: #ffffff;
+  z-index: 4;
+  position: relative;
+  text-align: center;
+  padding-top: 35px;
+}
+
+.words h2{
+  font-family: Raleway, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 0.8em;
+  color: var(--app-gray);
+}
+
+.words p{
+  font-size: 0.8em;
+  margin-top: 30px;
+  color: gray;
+}
+
+.aSec{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+#Portfolio a{
+  text-align: center;
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 16px 35px;
+  text-decoration: none;
+  letter-spacing: 4px;
+  color: var(--app-gray);
+  margin-top: 85px;
+  background-color: var(--app-yellow);
 }
 
 /* Portfolio End */
