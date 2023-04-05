@@ -396,7 +396,6 @@ main p {
   margin-bottom: 30px;
 }
 
-
 .Colors {
   width: 100%;
   margin-top: 90px;
@@ -434,7 +433,7 @@ main p {
   padding-top: 35px;
 }
 
-.words h2{
+.words h2 {
   font-family: Raleway, sans-serif;
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -442,19 +441,19 @@ main p {
   color: var(--app-gray);
 }
 
-.words p{
+.words p {
   font-size: 0.8em;
   margin-top: 30px;
   color: gray;
 }
 
-.aSec{
+.aSec {
   width: 100%;
   margin: auto;
   text-align: center;
 }
 
-#Portfolio a{
+#Portfolio a {
   text-align: center;
   display: inline-block;
   text-transform: uppercase;
@@ -467,3 +466,36 @@ main p {
 }
 
 /* Portfolio End */
+
+
+/* Video Start */
+
+#Video {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  margin-top: 85px;
+  background-color: var(--app-gray);
+  padding-top: 145px;
+  padding-bottom: 150px;
+}
+
+#Video a {
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid var(--app-yellow);
+  color: var(--app-yellow);
+  text-transform: uppercase;
+  padding: 30px 45px;
+  letter-spacing: 13px;
+  background-color: var(--app-gray);
+}
+
+/* Video End */
+
+
+/* LastSection Start */
+
+
+
+/* LastSection End */
