@@ -530,71 +530,24 @@ main p {
   margin: auto;
 }
 
-.last2 {
-  width: 70%;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 90px;
-  flex-direction: row;
-  flex-wrap: wrap;
-  background-color: #ffffff;
-
-}
-
-.last2 .itemLast {
-  width: 23.5%;
-  text-align: center;
-  border: 0;
-  box-shadow: 0 0 5px lightgray;
-  box-sizing: border-box;
-}
-
-.last2 .itemLast .i-1 {
-  height: 291px;
-  width: 100%;
-  background-color: var(--app-gray);
-}
-
-.last2 h2 {
-  font-family: "Raleway", sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  font-weight: 200;
-  color: var(--app-gray);
-  background-color: var(--app-yellow);
-  padding: 25px 0;
-  align-items: center;
-}
-
-.last2 p {
-  width: 80%;
-  margin: auto;
-  margin-top: 25px;
-  font-size: 0.9em;
-  color: #939393;
-  line-height: 15px;
-  letter-spacing: 2px;
-  margin-bottom: 35px;
-}
-
-.last3 {
-  width: 70%;
-  margin: auto;
-  display: flex;
-  margin-top: 95px;
-  height: 50vh;
-  position: relative;
-}
-
 .lastItem3 {
-  width: 48%;
-  height: 100%;
+  width: 40%;
   margin: auto;
   text-align: center;
-  justify-content: space-between;
   z-index: 1;
+  
+}
+
+.box1{
+  position: absolute;
+  left: 100px;
+  top: -100px;
+}
+
+.box2{
+  position: absolute;
+  right: 100px;
+  bottom: -200px;
 }
 
 .lastItem3 .i-1 p {
@@ -634,9 +587,10 @@ main p {
   background-color: var(--app-yellow);
   width: 100%;
   height: 290px;
-  position: absolute;
+  position: relative;
   top: 85%;
   z-index: 0;
+  margin-top: 275px;
 }
 
 /* LastSection End */
