@@ -132,6 +132,16 @@ main p {
   margin-top: 85px;
 }
 
+#Skills {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
 .item {
   width: 23.5%;
   text-align: center;
@@ -142,7 +152,9 @@ main p {
   background-color: white;
 }
 
-.item h1 {
+
+
+#items .item h1 {
   margin-top: 35px;
   line-height: 20px;
   font-family: "Raleway", sans-serif;
@@ -152,7 +164,7 @@ main p {
   color: var(--app-gray)
 }
 
-.item p {
+#items .item p {
   color: var(--app-gray);
   font-size: 0.8em;
   margin-top: 45px;
@@ -188,7 +200,7 @@ main p {
   background-color: white;
 }
 
-#StartsItems .item h2{
+#StartsItems .item h2 {
   font-size: 1em;
   padding-top: 15px;
 }
@@ -206,9 +218,9 @@ main p {
 /* Stats End */
 
 /* Portfolio Start */
-#Portfolio
-{
+#Portfolio {
   background-color: var(--app-yellow);
   height: 20vh;
 }
+
 /* Portfolio End */
